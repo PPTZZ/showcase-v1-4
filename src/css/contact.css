@@ -1,0 +1,7 @@
+@import url('./colors.css');
+
+.profile-container{
+    width: 18.75rem;
+    height: calc(100vh - 15.625rem);
+    background-color: black;
+}
