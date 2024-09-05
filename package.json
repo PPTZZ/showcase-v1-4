@@ -1,0 +1,30 @@
+{
+  "name": "showcase",
+  "version": "0.1.4",
+  "description": "",
+  "homepage": "https://PPTZZ.github.io/showcase-v14",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /showcase-v14/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PPTZZ/showcase-v14.git"
+  },
+  "keywords": [],
+  "author": "Alex Poputa <poputa.alex@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PPTZZ/showcase-v14/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
