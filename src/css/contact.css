@@ -1,7 +1,49 @@
-@import url('./colors.css');
+.profile-container {
+  width: 18.75rem;
+  height: calc(100vh - 15.625rem);
+  background-color: var(--color-white);
+  box-shadow: 1px 0px 10px -1px rgba(0, 0, 0, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-.profile-container{
-    width: 18.75rem;
-    height: calc(100vh - 15.625rem);
-    background-color: black;
+.profile__img-container {
+  margin-top: 1.875rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.profile__img {
+  width: 11rem;
+  height: auto;
+  object-fit: contain;
+  position: absolute;
+  right: -15px;
+}
+
+.profile__name-box,
+.profile__contact-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  margin-top: 1.875rem;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 21.6px;
+  color: var(--color-main);
+}
+
+.job {
+  color: var(--color-secondary);
+  margin-top: 0.625rem;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 14.4px;
 }
