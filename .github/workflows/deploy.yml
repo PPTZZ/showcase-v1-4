@@ -16,7 +16,7 @@ jobs:
           npm ci
           npm run build
 
-       -name: Test secrets
+      - name: Test secrets 🔧
         run: |
           echo "$DEVOPS"
         env:
