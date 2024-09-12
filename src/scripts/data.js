@@ -1,10 +1,11 @@
 import axios from "axios";
 import 'dotenv/config'
 
-const URL = process.env.API_KEY
+const ENDPOINT = process.env.ENDPOINT
 
 console.log('mooo');
-console.log(URL);
+console.log(ENDPOINT);
+
 
 
 
