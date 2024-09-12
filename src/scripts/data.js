@@ -1,7 +1,7 @@
 import axios from "axios";
 import 'dotenv/config'
 
-export const ENDPOINT = process.env.ENDPOINT
+export const ENDPOINT = process.env.DEVOPS
 
 export const getData =  async(URL)=>{
     try {
