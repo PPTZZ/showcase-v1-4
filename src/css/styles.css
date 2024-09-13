@@ -3,6 +3,7 @@
 @import url('./header.css');
 @import url('./contact.css');
 @import url('./display.css');
+@import url('./modal.css');
 
 * {
   box-sizing: border-box;

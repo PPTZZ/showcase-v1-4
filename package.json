@@ -19,8 +19,6 @@
     "url": "https://github.com/PPTZZ/showcase-v1-4/issues"
   },
   "dependencies": {
-    "axios": "^1.7.7",
-    "dotenv": "^16.4.5",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {

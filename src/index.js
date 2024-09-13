@@ -1,6 +1,9 @@
-import './scripts/data.js'
-import { ENDPOINT, getData } from './scripts/data.js'
+import { createCards, gallery } from './scripts/data'
 
+createCards()
 
-
-getData(ENDPOINT).then(data=>console.log(data));
+gallery.addEventListener('click',(e)=>{
+    if(e.target.nodeName !== "IMG"){
+        return
+    }
+})

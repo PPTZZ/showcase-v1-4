@@ -1,17 +1,17 @@
-import axios from "axios";
-import 'dotenv/config'
+import data from "../../assets/data/data.json"
 
-export const ENDPOINT = process.env.DEVOPS
+// Populate Gallery
+export const gallery = document.querySelector('#display__canvas');
 
-export const getData =  async(URL)=>{
-    try {
-        const data = await axios(URL);
-        return data
-    } catch (error) {
-        return error
-    }
+export const createCards = ()=>{
+    data.forEach(({imgUrl})=>{
+ 
+        const card = `<div class="card">
+                        <img src="${imgUrl}" loading="lazy">
+                      </div>`
+        
+        gallery.insertAdjacentHTML('beforeend', card);
+    })
 }
 
-
-
-
+// Modal
