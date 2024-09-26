@@ -5,5 +5,80 @@
     height: 100%;
     width: 100%;
     background-color: #000000B3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal{
+    width: 31.25rem;
+    height: 43rem;
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
 }
 
+.modal__close-btn{
+    width: 2rem;
+    height: 2rem;
+    border: hidden;
+    border-radius: 25px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: var(--bg-color-main);
+    z-index: 99;
+}
+
+.modal__close-btn:hover{
+    cursor: pointer;
+    background-color: var(--color-secondary);
+}
+
+.modal__img-container{
+    width: 90%;
+    height: 45%;
+    margin-top: 20px;
+    background-color: gray;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.modal__img{
+    width: 39.8rem;
+    height: auto;
+    position: absolute;
+    left: -5.6rem;
+}
+
+.modal__text-container{
+    width: 90%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.modal__title{
+    margin-top: 30px;
+}
+
+.modal__label{
+    font-weight: 700;
+    color: var(--color-black);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.modal__text{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-main);
+    
+}
+
+.hidden{
+    display: none;
+}
