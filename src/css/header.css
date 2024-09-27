@@ -1,26 +1,26 @@
-.page-header{
-    width: 100vw;
-    height: 10rem;
-    background-image: url('../../assets/images/jpg/Rectangle-53.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
+.page-header {
+  width: 100vw;
+  height: 10rem;
+  background-image: url('../../assets/images/jpg/Rectangle-53.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
 }
 
-.page-header__navbar{
-    display: block;
-    width: 100%;
-    height: 3.75rem;
-    background-color: var(--bg-color-main);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.page-header__navbar {
+  display: block;
+  width: 100%;
+  height: 3.75rem;
+  background-color: var(--bg-color-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.page-header__logo{
-    width: 3.125rem;
-    height: 1.875rem;
-    fill: var(--color-main);
-    stroke: var(--color-main);
+.page-header__logo {
+  width: 3.125rem;
+  height: 1.875rem;
+  fill: var(--color-main);
+  stroke: var(--color-main);
 }
